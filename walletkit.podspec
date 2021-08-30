@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'walletkit'
-  s.version          = '1.0'
+  s.version          = '0.1.0'
   s.summary          = 'Pod package for WalletKit SDK.'
   s.description      = 'WalletKit SDK cocoapods package. Latest version can be downloaded from: https://github.com/blockset-corp/walletkit'
   s.homepage         = 'https://github.com/blockset-corp/walletkit'
