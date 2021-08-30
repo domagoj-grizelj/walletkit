@@ -8,14 +8,14 @@
 
 Pod::Spec.new do |s|
   s.name             = 'walletkit'
-  s.version          = '1.2'
+  s.version          = '1.3'
   s.summary          = 'Pod package for WalletKit SDK.'
   s.description      = 'WalletKit SDK cocoapods package. Latest version can be downloaded from: https://github.com/blockset-corp/walletkit'
   s.homepage         = 'https://github.com/blockset-corp/walletkit'
   s.license          = 'Proprietary'
   s.author           = { 'r000li' => 'roli.r00li@gmail.com' }
-  s.source           = { :git => 'https://github.com/domagoj-grizelj/walletkit.git', :tag => '1.2' }
+  s.source           = { :git => 'https://github.com/domagoj-grizelj/walletkit.git', :tag => '1.3' }
   s.source_files     = [ 'WalletKitSwift/**/*', 'WalletKitCore/**/*' ]
-  s.exclude_files    = [ 'WalletKitSwift/LinuxMain.swift', 'WalletKitCore/LinuxMain.swift' ]
+  s.exclude_files    = [ 'WalletKitSwift/LinuxMain.swift', 'WalletKitSwift/WalletKitDemo/**' 'WalletKitCore/LinuxMain.swift',  ]
   s.ios.deployment_target = '10.0'
 end
