@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/blockset-corp/walletkit'
   s.license          = 'Proprietary'
   s.author           = { 'r000li' => 'roli.r00li@gmail.com' }
-  s.source           = { :git => 'https://github.com/globalid/walletkit.git', :tag => '0.1.0' }
+  s.source           = { :git => 'https://github.com/domagoj-grizelj/walletkit.git', :tag => '0.1.0' }
+  s.source_files     = 'WalletKitSwift/**'
   s.ios.deployment_target = '10.0'
 end
